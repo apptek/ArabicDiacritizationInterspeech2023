@@ -26,6 +26,7 @@ Check the individual files for usage instructions.
 - It includes config files used in [RETURNN](https://github.com/rwth-i6/returnn) for our experiments. See RETURNN dependencies.
 
 ## Steps
+To process the data, we apply [Moses tokenizer](https://github.com/moses-smt/mosesdecoder/blob/master/scripts/tokenizer/tokenizer.perl), and normalize Arabic numbers and punctuation to Latin form.
 
 To create hdf files for your training/dev sets with 50% masking_factor, run:
 
@@ -37,7 +38,7 @@ To train Returnn models given a config file, you have to first specify the paths
 
 To run diacrizer in decoding without any hints and with left-to-right autoregressive search, do the following:
 
-    python3 diacritization/remove_diacritics.py -in {input_text} (Mandatory step for baseline, optional here)
+    python3 diacritization/remove_diacritics.py -in {input_text} (Mandatory step for baseline, optional here.)
     export PYTHONPATH=$PYTHONPATH:{path_to_RETURNN_code}
     python3 diacritization/diacritizer.py configs/config_2SDiac.py --load-epoch {checkpoint_to_use} --from-file {input_txt} --to-file {output_txt} --device cpu --twoSDiac --masking_factor 1.0 --search
 
