@@ -4,8 +4,6 @@ This repository contains the code, configuration setups and model architectures 
 Arabic Text Diacritization. The primary purpose is to facilitate the reproduction of our experiments.
 
 
-data/work/apptek_dubbing/diacritizer/workflow/dataset/CreateHDFDatasetJob.u5ezVjvvD3F6/output/segments_list_u5ezVjvvD3F6 --random_mask 1.0
-
 USAGE INSTRUCTIONS
 ------------------
 Check the individual files for usage instructions.
