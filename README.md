@@ -31,9 +31,9 @@ To create hdf files for your training with 50% masking_factor, run:
 
     python3 diacritization/create_hdf_dataset.py {training_text} {hdf_source_letter_dataset} {hdf_source_diacritic_dataset} {hdf_target_dataset} --masking_factor 0.5 
 
-To train Returnn models given a config file, invoke the following command:
+To train Returnn models given a config file, for example invoke the following command:
 
-    python3 returnn/rnn.py configs/config.py
+    python3 returnn/rnn.py configs/config_2SDiac.py
 
 To run diacrizer in decoding without any hints and with left-to-right autoregressive search, do the following:
 
