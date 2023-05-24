@@ -2,7 +2,7 @@ import argparse
 import os
 import h5py
 import numpy
-from .dictionary import (
+from dictionary import (
     arabic_dictionary,
     harakat,
     harakat_index_dict,
