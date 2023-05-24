@@ -39,7 +39,7 @@ To run diacrizer in decoding without any hints and with left-to-right autoregres
 
     python3 diacritization/remove_diacritics.py -in {input_text} (Mandatory step for baseline, optional here)
     export PYTHONPATH=$PYTHONPATH:{path_to_RETURNN_code}
-    python3 diacritization/diacritizer.py configs/config_2SDiac.py --load-epoch {checkpoint_to_use} --from-file {input_txt} --to-file {outout_txt} --device cpu --twoSDiac --masking_factor 1.0 --search
+    python3 diacritization/diacritizer.py configs/config_2SDiac.py --load-epoch {checkpoint_to_use} --from-file {input_txt} --to-file {output_txt} --device cpu --twoSDiac --masking_factor 1.0 --search
 
 To evaluate the output,
 
