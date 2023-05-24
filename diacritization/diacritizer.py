@@ -2,7 +2,7 @@ import numpy
 import argparse
 import sys
 import time
-from .dictionary import (
+from dictionary import (
     arabic_index_dict,
     harakat,
     harakat_index_dict,
