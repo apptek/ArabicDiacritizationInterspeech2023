@@ -57,7 +57,7 @@ PUBLICATION
 
 The Arabic text diacrization model is described in:
 
-"[Take the Hint: Improving Arabic Diacritization with Partially-Diacritized Text]()", 
+"[Take the Hint: Improving Arabic Diacritization with Partially-Diacritized Text](https://arxiv.org/pdf/2306.03557.pdf)", 
 Parnia Bahar, Mattia Di Gangi, Nick Rossenbach, Mohammad Zeineldeen, Interspeech 2023.
 
 ## Citation
