@@ -2,7 +2,7 @@ import argparse
 import os
 import h5py
 import numpy
-from .dictionary import (
+from dictionary import (
     arabic_dictionary,
     harakat,
     harakat_index_dict,
@@ -301,7 +301,6 @@ def main():
                 )
                 for idx in mask:
                     source_diac_indices[before_masking[idx]] = 0
-        print("length", len(source_indices))
         assert len(source_indices) == (len(target_indices) and len(source_diac_indices))
 
         # here, we filter long sequence due to memory issues, in particular for self-attention models
