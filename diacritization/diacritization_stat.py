@@ -359,8 +359,7 @@ if __name__ == "__main__":
     print("|  DER  |------------------------------------------+------------------------------------------|")
     print("|       |          Including no diacritic          |          Excluding no diacritic          |")
     print("|-------+------------------------------------------+------------------------------------------|")
-    print(
-        "|   DER %%   |        %5.2f       |        %5.2f        |        %5.2f       |        %5.2f        |"
+    print("|   %%   |        %5.2f       |        %5.2f        |        %5.2f       |        %5.2f        |"
         % (
             der_including_with_case,
             der_including_without_case,
@@ -408,8 +407,7 @@ if __name__ == "__main__":
     print("|  WER  |------------------------------------------+------------------------------------------|")
     print("|       |          Including no diacritic          |          Excluding no diacritic          |")
     print("|-------+------------------------------------------+------------------------------------------|")
-    print(
-        "|  WER %%   |        %5.2f       |        %5.2f        |        %5.2f       |        %5.2f        |"
+    print("|   %%   |        %5.2f       |        %5.2f        |        %5.2f       |        %5.2f        |"
         % (
             wer_including_with_case,
             wer_including_without_case,
@@ -457,8 +455,7 @@ if __name__ == "__main__":
     print("|  SER  |------------------------------------------+------------------------------------------|")
     print("|       |          Including no diacritic          |          Excluding no diacritic          |")
     print("|-------+------------------------------------------+------------------------------------------|")
-    print(
-        "|  SER %%   |        %5.2f       |        %5.2f        |        %5.2f       |        %5.2f        |"
+    print("|   %%   |        %5.2f       |        %5.2f        |        %5.2f       |        %5.2f        |"
         % (
             ser_including_with_case,
             ser_including_without_case,
@@ -512,8 +509,7 @@ if __name__ == "__main__":
     print("|  DER  |------------------------------------------+------------------------------------------|")
     print("|       |          Including no diacritic          |          Excluding no diacritic          |")
     print("|-------+------------------------------------------+------------------------------------------|")
-    print(
-        "|  DER %%   |        %5.2f       |        %5.2f        |        %5.2f       |        %5.2f        |"
+    print("|   %%   |        %5.2f       |        %5.2f        |        %5.2f       |        %5.2f        |"
         % (
             no_sukun_der_including_with_case,
             no_sukun_der_including_without_case,
@@ -565,8 +561,7 @@ if __name__ == "__main__":
     print("|  WER  |------------------------------------------+------------------------------------------|")
     print("|       |          Including no diacritic          |          Excluding no diacritic          |")
     print("|-------+------------------------------------------+------------------------------------------|")
-    print(
-        "|  WER %%   |        %5.2f       |        %5.2f        |        %5.2f       |        %5.2f        |"
+    print("|   %%   |        %5.2f       |        %5.2f        |        %5.2f       |        %5.2f        |"
         % (
             no_sukun_wer_including_with_case,
             no_sukun_wer_including_without_case,

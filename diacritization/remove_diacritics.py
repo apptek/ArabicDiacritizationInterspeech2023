@@ -11,7 +11,7 @@ def remove_diacritics(file_path):
     def _remove_diacritics(content):
         return content.translate(str.maketrans("", "", "".join(DIACRITICS_LIST)))
 
-    CONSTANTS_PATH = "constants"
+    CONSTANTS_PATH = "diacritization/constants"
 
     with open(CONSTANTS_PATH + "/DIACRITICS_LIST.pickle", "rb") as file:
         DIACRITICS_LIST = pkl.load(file)
